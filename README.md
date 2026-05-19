@@ -19,7 +19,7 @@ Then sends the message using the provided bot token.
 
 ## Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/YOUR_USERNAME/YOUR_REPO)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maanavbaby/hack-bot-bye-axiom)
 
 ---
 
