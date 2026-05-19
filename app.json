@@ -1,0 +1,31 @@
+{
+  "name": "Telegram Sender Bot",
+  "description": "A Telegram bot that asks for chat id, bot token and text, then sends message.",
+  "logo": "https://telegra.ph/file/6e7c4d4d8b4f4f4f4f4f.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "sender",
+    "python",
+    "aiogram"
+  ],
+  "repository": "https://github.com/YOUR_USERNAME/YOUR_REPO",
+  "success_url": "/",
+  "env": {
+    "MAIN_BOT_TOKEN": {
+      "description": "Your main Telegram bot token",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
